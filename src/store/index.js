@@ -35,7 +35,7 @@ export default new Vuex.Store({
     async deleteByIds(context, val) {
       const { data: res } = await axios.get('http://www.liulongbin.top:3006/api/delbook/', { id: Number(val) })
       // console.log(index)
-      console.log(val)
+      // console.log(val)
       // console.log(state.formInline.id)
       // context.commit('queryById')
       if (res.status !== 200) {
