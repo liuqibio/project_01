@@ -56,7 +56,7 @@ export default {
   },
   methods: {
     onSubmit() {
-      console.log(this.formInline)
+      // console.log(this.formInline)
       this.$store.dispatch('addData', this.formInline)
     },
     deleteRow($index, tableData) {
