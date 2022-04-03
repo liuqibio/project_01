@@ -60,7 +60,7 @@ export default {
       this.$store.dispatch('addData', this.formInline)
     },
     deleteRow($index, tableData) {
-      // console.log($index, tableData)
+      console.log($index, tableData)
       // this.$store.commit('queryById', $index)
 
       this.$store.dispatch('deleteByIds', tableData[$index].id)
